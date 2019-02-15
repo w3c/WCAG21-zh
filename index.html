@@ -869,9 +869,9 @@ details.respec-tests-details > li {
             
    
             
-  <p>不应该限制内容的视图和操作为单个显示方向，例如纵向或横向，除非<a href="#dfn-essential" class="internalDFN" data-link-type="dfn">必须</a>使用特定的显示方向。</p>
+  <p>不应该将内容的视图和操作限定为单一的显示方向，例如纵向或横向，除非使用特定的显示方向是<a href="#dfn-essential" class="internalDFN" data-link-type="dfn">必要的</a>。</p>
           
-   <div class="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="5"><span>注意</span></div><p class="">特定显示方向可能是必要的示例是银行支票，钢琴应用，投影仪或电视的幻灯片，或二进制显示方向不适用的虚拟现实内容。</p></div>
+   <div class="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="5"><span>注意</span></div><p class="">特定显示方向可能必要的示例是银行支票，钢琴应用，投影仪或电视的幻灯片，或二进制显示方向不适用的虚拟现实内容。</p></div>
             
 </section>
 
@@ -884,10 +884,10 @@ details.respec-tests-details > li {
   
   
   
-  <p>收集有关用户信息的每个输入字段的目的可以在以下情况下<a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">以编程方式确定</a> :</p>
+  <p>用于收集用户信息的每个输入框的目的可以在以下情况下<a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">编程式确定</a>：</p>
   
   <ul>
-    <li>输入字段用于“用户界面组件的输入目的”部分中标识的用途；</li>
+    <li>输入字段的用途在“<a href="#x7-input-purposes-for-user-interface-components">用户界面组件的输入目的</a>”部分有定义；</li>
     <li>使用支持识别表单输入数据的预期含义的技术来实现内容。</li>
   </ul>
   
@@ -902,7 +902,7 @@ details.respec-tests-details > li {
             
    
               
-  <p>在使用标记语言实现的内容中，可以通过<a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">编程方式确定</a>.)<a href="#dfn-user-interface-components" class="internalDFN" data-link-type="dfn">用户界面组件</a>，图标和<a href="#dfn-regions" class="internalDFN" data-link-type="dfn">区域</a>的用途。</p>
+  <p>在使用标记语言实现的内容中，<a href="#dfn-user-interface-components" class="internalDFN" data-link-type="dfn">用户界面组件</a>、图标及<a href="#dfn-regions" class="internalDFN" data-link-type="dfn">区域</a>的用途可以<a href="#dfn-programmatically-determinable" class="internalDFN" data-link-type="dfn">编程式确定</a>。</p>
 </section>
 
 
@@ -1155,14 +1155,14 @@ details.respec-tests-details > li {
             
    
             
-   <p>呈现的内容在不丢失信息或功能的情况下，可以无需在两个维度上滚动：</p>
+   <p>内容可以在不丢失信息或功能，且在下面两种规格里无需滑动滚动条的情况下呈现：</p>
    <ul>
-       <li>垂直滚动内容，宽度相当于320个<a href="#dfn-css-pixels" class="internalDFN" data-link-type="dfn">CSS像素</a>;</li>
-       <li>水平滚动内容，高度相当于256个<a href="#dfn-css-pixels" class="internalDFN" data-link-type="dfn">CSS像素</a>。</li>
+       <li>宽度相当于320个<a href="#dfn-css-pixels" class="internalDFN" data-link-type="dfn">CSS像素</a>时垂直滚动内容;</li>
+       <li>高度相当于256个<a href="#dfn-css-pixels" class="internalDFN" data-link-type="dfn">CSS像素</a>时水平滚动内容。</li>
    </ul>
    <p>除非部分内容需要以二维布局的方式使用或提供含义。</p>
   
-   <div class="note" id="issue-container-generatedID-6"><div role="heading" class="note-title marker" id="h-note-6" aria-level="5"><span>注意</span></div><p class="">320个CSS像素相当于400％缩放时的起始视口宽度为1280 CSS像素宽。对于设计为水平滚动的Web内容（例如，使用垂直文本），256 CSS像素相当于400％缩放时的1024px的起始视口高度。</p></div>
+   <div class="note" id="issue-container-generatedID-6"><div role="heading" class="note-title marker" id="h-note-6" aria-level="5"><span>注意</span></div><p class="">320个CSS像素相当于起始窗口宽度为1280CSS像素在400%放大后的宽度。对于设计为水平滚动的Web内容（例如，使用垂直文本），256像素相当于起始窗口为1024像素在400%放大后的高度。</p></div>
    
    <div class="note" id="issue-container-generatedID-7"><div role="heading" class="note-title marker" id="h-note-7" aria-level="5"><span>注意</span></div><p class="">需要二维布局的内容的示例是图像，地图，图表，视频，游戏，演示文稿，数据表和界面，其中在操纵内容时必须保持工具栏在视图中。</p></div>
           
@@ -1185,9 +1185,9 @@ details.respec-tests-details > li {
                   
      <dd>识别用户界面组件和状态所需的可视化信息，除非活动组件或组件的外观由用户代理确定且未被作者修改;</dd>
                   
-      <dt>图形对象</dt>
+      <dt>图形图像</dt>
                   
-      <dd>部分图形需要理解内容，除非对传达的信息至关重要的特定图形。</dd>
+      <dd>理解内容所必需的图形部分，除非图形的某种特定呈现对所传达的信息至关重要。</dd>
                   
    </dl>
   
@@ -1224,7 +1224,7 @@ details.respec-tests-details > li {
        
    
             
-      <p>在以下情况时，当收到或移除指针悬停或键盘焦点时，会触发其他内容变为可见或隐藏：</p>
+      <p>当收到、之后移除指针悬停或键盘焦点时，所触发的附加内容也从可见、之后变为隐藏。在这种情况下，以下为真：</p>
 
   <dl>
 
@@ -1232,10 +1232,10 @@ details.respec-tests-details > li {
     <dd>除非附加内容传达<a href="#dfn-input-error" class="internalDFN" data-link-type="dfn">输入错误</a>或不掩盖或替换其他内容，否则可以使用一种<a href="#dfn-mechanism" class="internalDFN" data-link-type="dfn"> 机制 </a>来关闭附加内容而不移动指针悬停或键盘焦点;</dd>
 
     <dt>可悬停的(</dt>
-   <dd>除非附加内容传达输入错误或不掩盖或替换其他内容，否则可以使用一种机制来关闭附加内容而不移动指针悬停或键盘焦点;</dd>
+   <dd>如果指针悬停可以触发额外内容，那么指针可以从附加内容上挪开，而附加内容不会消失;</dd>
 
     <dt>持久性的</dt>
-    <dd>在移除悬停或焦点触发器，用户解除它或其信息不再有效之前，其他内容仍然可见。</dd>
+    <dd>在用户移除或解除指针悬停和键盘焦点、或附加内容不再有效之前，附加内容都要保持可见。</dd>
 
   </dl>
       
@@ -1484,7 +1484,7 @@ details.respec-tests-details > li {
             
    
             
-   <p>警告用户任何可能导致数据丢失的<a href="#dfn-user-inactivity" class="internalDFN" data-link-type="dfn">用户不活动</a>的持续时间，除非在用户不采取任何操作时数据保留超过20小时。</p>
+   <p>当持续时间内的<a href="#dfn-user-inactivity" class="internalDFN" data-link-type="dfn">用户不活动</a>将导致用户数据丢失时需要向用户发出警告，除非在用户不进行任何操作时依旧为用户保存数据超过20个小时。</p>
   
 <div class="note" id="issue-container-generatedID-18"><div role="heading" class="note-title marker" id="h-note-18" aria-level="5"><span>注意</span></div><p class="">在用户身份验证之前和保留用户数据之前，隐私法规可能需要明确的用户同意。如果用户是未成年人，则可能不会在大多数司法管辖区，国家或地区征求明确同意。在考虑将数据保存作为满足此成功标准的方法时，建议咨询隐私专业人士和法律顾问。</p></div>
   
